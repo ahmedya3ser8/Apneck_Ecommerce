@@ -4,6 +4,7 @@ import FeatureProduct from "../components/FeatureProduct/FeatureProduct";
 import Hero from "../components/Hero/Hero";
 import HotDeals from "../components/Hot-Deals/HotDeals";
 import Icons from '../components/icons/Icons';
+import NewsLetter from "../components/newsletter/NewsLetter";
 import Services from "../components/services/services";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <Arrivals />
       <HotDeals />
       <Customer />
+      <NewsLetter />
     </main>
   )
 }
