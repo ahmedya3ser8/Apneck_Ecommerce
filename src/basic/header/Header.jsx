@@ -37,7 +37,7 @@ function Header() {
             </nav>
             <div className="nav-icons ml-4 md:ml-12 flex gap-4 md:gap-6">
               <FaUserAlt className='text-[22px] hover:text-slate-500' />
-              <FaShoppingCart className='text-[22px] hover:text-slate-500'/>
+              <Link to={'cart'}><FaShoppingCart className='text-[22px] hover:text-slate-500'/></Link>
             </div>
           </div>
         </div>

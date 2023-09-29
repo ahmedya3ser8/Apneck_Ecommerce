@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./src/assets/images/hero4.png')",
         'service-pattern': "url('./src/assets/images/service.jpg')",
+        'shaop-banner': "url('./src/assets/images/shop-banner.jpg')",
       },
       screens: {
         sm: '576px',

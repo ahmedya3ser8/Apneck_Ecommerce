@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "/src/assets/images/products/products-01.jpg",
+    "type": "calvin klein",
+    "title": "Slim Fit Dress Shirt",
+    "price": 49.9,
+    "offer": 99.8,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 2,
+    "imgUrl": "/src/assets/images/products/products-02.jpg",
+    "type": "nike",
+    "title": "Men's Dri-FIT T-Shirt",
+    "price": 24.6,
+    "offer": 49.8,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 3,
+    "imgUrl": "/src/assets/images/products/products-03.jpg",
+    "type": "adidas",
+    "title": "Women's Badge of Sport Tee",
+    "price": 39.3,
+    "offer": 77.9,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 4,
+    "imgUrl": "/src/assets/images/products/products-04.jpg",
+    "type": "levi s",
+    "title": "Men's 1950s Sportswear T-Shirt",
+    "price": 59.3,
+    "offer": 99.9,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 5,
+    "imgUrl": "/src/assets/images/products/products-05.jpg",
+    "type": "under armour",
+    "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
+    "price": 39.3,
+    "offer": 79.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 6,
+    "imgUrl": "/src/assets/images/products/products-06.jpg",
+    "type": "h&m",
+    "title": "Women's Basic Tee, Men's Rebel Bold Tee",
+    "price": 19.3,
+    "offer": 29.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 7,
+    "imgUrl": "/src/assets/images/products/products-07.jpg",
+    "type": "puma",
+    "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+    "price": 9.3,
+    "offer": 19.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 8,
+    "imgUrl": "/src/assets/images/products/products-08.jpg",
+    "type": "ralph lauren",
+    "title": "Women's Classic Fit Crewneck T-Shirt",
+    "price": 29.3,
+    "offer": 59.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 9,
+    "imgUrl": "/src/assets/images/products/n1.jpg",
+    "type": "calvin klein",
+    "title": "Slim Fit Dress Shirt",
+    "price": 39.3,
+    "offer": 69.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 10,
+    "imgUrl": "/src/assets/images/products/n2.jpg",
+    "type": "nike",
+    "title": "Men's Dri-FIT T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 11,
+    "imgUrl": "/src/assets/images/products/n3.jpg",
+    "type": "adidas",
+    "title": "Women's Badge of Sport Tee",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 12,
+    "imgUrl": "/src/assets/images/products/n4.jpg",
+    "type": "levi s",
+    "title": "Men's 1950s Sportswear T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 13,
+    "imgUrl": "/src/assets/images/products/n5.jpg",
+    "type": "under armour",
+    "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 14,
+    "imgUrl": "/src/assets/images/products/n6.jpg",
+    "type": "h&m",
+    "title": "Women's Basic Tee, Men's Rebel Bold Tee",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 15,
+    "imgUrl": "/src/assets/images/products/n7.jpg",
+    "type": "puma",
+    "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 16,
+    "imgUrl": "/src/assets/images/products/n8.jpg",
+    "type": "ralph lauren",
+    "title": "Women's Classic Fit Crewneck T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 17,
+    "imgUrl": "/src/assets/images/products/arrivals-01.png",
+    "type": "calvin klein",
+    "title": "Slim Fit Dress Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 18,
+    "imgUrl": "/src/assets/images/products/arrivals-02.png",
+    "type": "nike",
+    "title": "Men's Dri-FIT T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 19,
+    "imgUrl": "/src/assets/images/products/arrivals-03.png",
+    "type": "adidas",
+    "title": "Women's Badge of Sport Tee",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 20,
+    "imgUrl": "/src/assets/images/products/arrivals-04.png",
+    "type": "levi s",
+    "title": "Men's 1950s Sportswear T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 21,
+    "imgUrl": "/src/assets/images/products/arrivals-05.png",
+    "type": "under armour",
+    "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 22,
+    "imgUrl": "/src/assets/images/products/arrivals-06.png",
+    "type": "h&m",
+    "title": "Women's Basic Tee, Men's Rebel Bold Tee",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 23,
+    "imgUrl": "/src/assets/images/products/arrivals-07.png",
+    "type": "puma",
+    "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  },
+  {
+    "id": 24,
+    "imgUrl": "/src/assets/images/products/arrivals-08.png",
+    "type": "ralph lauren",
+    "title": "Women's Classic Fit Crewneck T-Shirt",
+    "price": 29.3,
+    "offer": 49.7,
+    "linkText": "View Details",
+    "buttonText": "Add To Cart"
+  }
+]
