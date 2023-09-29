@@ -13,14 +13,14 @@ function Header() {
     {path: "contact", text: "Contact"},
   ])
   return (
-    <header className='h-[70px] p-[10px] bg-[#c3dacc86]'>
+    <header className='h-[70px] p-[10px] bg-[#cbd6cf] fixed top-0 left-0 w-full z-10'>
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="left flex items-center gap-5">
+          <div className="left w-[30%] flex items-center gap-5">
             <Link to="/" className='w-[50px]'>
               <img src={logo} alt="logo" className='h-[50px]' />
             </Link>
-            <div>
+            <div className='w-full'>
               <input type="text" placeholder="Search..." className='w-full p-[10px] bg-white text-[18px] border-[1px] border-solid border-[#ccc] outline-none rounded-[25px]'/>
             </div>
           </div>

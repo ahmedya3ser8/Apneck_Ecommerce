@@ -10,6 +10,8 @@ export default {
         'hero-pattern': "url('./src/assets/images/hero4.png')",
         'service-pattern': "url('./src/assets/images/service.jpg')",
         'shaop-banner': "url('./src/assets/images/shop-banner.jpg')",
+        'blog-landing': "url('./src/assets/images/blog.jpg')",
+        'about-landing': "url('./src/assets/images/about.png')",
       },
       screens: {
         sm: '576px',

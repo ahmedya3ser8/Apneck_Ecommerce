@@ -1,7 +1,12 @@
+import BlogLanding from "../components/blog/BlogLanding";
+import BlogWrapper from "../components/blog/BlogWrapper";
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <main className="overflow-hidden">
+      <BlogLanding />
+      <BlogWrapper />
+    </main>
   )
 }
 
