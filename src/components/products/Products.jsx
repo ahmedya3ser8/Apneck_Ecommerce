@@ -32,7 +32,7 @@ function Products() {
                 <span className='text-[#00a97f]'>{`$${product.price}`}</span>
                 <span className='text-[#ea9d5a] line-through'>{`$${product.offer}`}</span>
               </div>
-              <a href="" className='block my-[10px] text-center text-[20px] text-[#535bf2] font-bold transition-colors duration-300 hover:text-[#ea9d5a]'>{product.linkText}</a>
+              <a href='' className='block my-[10px] text-center text-[20px] text-[#535bf2] font-bold transition-colors duration-300 hover:text-[#ea9d5a]'>{product.linkText}</a>
               <button className='block p-[10px] w-fit m-auto text-[18px] bg-[#354d61] text-white rounded-[10px]' onClick={() => dispatch(addToCart(product))}>{product.buttonText}</button>
             </div>
           </div>

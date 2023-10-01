@@ -3,6 +3,7 @@ import logo from '../../assets/images/logo.png';
 import {FaUserAlt, FaShoppingCart} from 'react-icons/fa';
 import {AiOutlineMenu} from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 function Header() {
   const [links, setLinks] = useState([
@@ -11,7 +12,9 @@ function Header() {
     {path: "blog", text: "Blog"},
     {path: "about", text: "About"},
     {path: "contact", text: "Contact"},
-  ])
+  ]);
+  const cart = useSelector(state => state.cart);
+
   return (
     <header className='h-[70px] p-[10px] bg-[#cbd6cf] fixed top-0 left-0 w-full z-10'>
       <div className="container">
@@ -37,7 +40,11 @@ function Header() {
             </nav>
             <div className="nav-icons ml-4 md:ml-12 flex gap-4 md:gap-6">
               <FaUserAlt className='text-[22px] hover:text-slate-500' />
-              <Link to={'cart'}><FaShoppingCart className='text-[22px] hover:text-slate-500'/></Link>
+              <Link to={'cart'} className='relative'><FaShoppingCart className='text-[22px] hover:text-slate-500'/>
+                <span className='absolute top-[-15px] right-[-10px] w-[20px] h-[20px] rounded-full bg-[#e4f0e9da] flex justify-center items-center z-[-1] font-medium'>
+                  {cart.length}
+                </span>
+              </Link>
             </div>
           </div>
         </div>

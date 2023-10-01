@@ -3,7 +3,7 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <section className="hero bg-[url('./src/assets/images/hero4.png')] bg-cover bg-center min-h-[calc(100vh - 70px)]">
+    <section className="hero bg-[url('./src/assets/images/hero4.png')] bg-cover bg-center min-h-screen">
       <div className="container">
         <div className="hero-content">
           <span>Trade in offer</span>
