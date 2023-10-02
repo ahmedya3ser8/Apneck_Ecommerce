@@ -1,7 +1,10 @@
+import ContactLanding from "../components/contact/ContactLanding";
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <main className="overflow-hidden">
+      <ContactLanding />
+    </main>
   )
 }
 

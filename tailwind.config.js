@@ -12,6 +12,7 @@ export default {
         'shaop-banner': "url('./src/assets/images/shop-banner.jpg')",
         'blog-landing': "url('./src/assets/images/blog.jpg')",
         'about-landing': "url('./src/assets/images/about.png')",
+        'contact-landing': "url('./src/assets/images/contact.jpg')",
       },
       screens: {
         sm: '576px',

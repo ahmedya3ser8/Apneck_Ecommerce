@@ -6,6 +6,7 @@
     "title": "Slim Fit Dress Shirt",
     "price": 49.9,
     "offer": 99.8,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -16,6 +17,7 @@
     "title": "Men's Dri-FIT T-Shirt",
     "price": 24.6,
     "offer": 49.8,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -26,6 +28,7 @@
     "title": "Women's Badge of Sport Tee",
     "price": 39.3,
     "offer": 77.9,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -36,6 +39,7 @@
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 59.3,
     "offer": 99.9,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -46,6 +50,7 @@
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 39.3,
     "offer": 79.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -56,6 +61,7 @@
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 19.3,
     "offer": 29.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -66,6 +72,7 @@
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 9.3,
     "offer": 19.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -76,6 +83,7 @@
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
     "offer": 59.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -86,6 +94,7 @@
     "title": "Slim Fit Dress Shirt",
     "price": 39.3,
     "offer": 69.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -96,6 +105,7 @@
     "title": "Men's Dri-FIT T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -106,6 +116,7 @@
     "title": "Women's Badge of Sport Tee",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -116,6 +127,7 @@
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -126,6 +138,7 @@
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -136,6 +149,7 @@
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -146,6 +160,7 @@
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -156,6 +171,7 @@
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -166,6 +182,7 @@
     "title": "Slim Fit Dress Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -176,6 +193,7 @@
     "title": "Men's Dri-FIT T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -186,6 +204,7 @@
     "title": "Women's Badge of Sport Tee",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -196,6 +215,7 @@
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -206,6 +226,7 @@
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -216,6 +237,7 @@
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -226,6 +248,7 @@
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   },
@@ -236,6 +259,7 @@
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
     "offer": 49.7,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tempore unde aperiam, consectetur harum a eum error, libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?",
     "linkText": "View Details",
     "buttonText": "Add To Cart"
   }
