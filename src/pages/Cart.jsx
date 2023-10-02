@@ -3,7 +3,12 @@ import { addToCart, clearCart, removeFromCart, removeItem } from "../RTK/Slices/
 
 function Cart() {
   const cart = useSelector(state => state.cart);
+  // const cart = JSON.parse(localStorage.getItem('cart-product'))
   const dispatch = useDispatch();
+  const totalPrice = cart.reduce((acc, product) => {
+    acc += product.price * product.count;
+    return acc;
+  }, 0)
   return (
     <section className="py-28">
       <div className="container">
@@ -32,7 +37,10 @@ function Cart() {
           ))}
         </div>
         ) : <div className="flex justify-center items-center h-[25vh] bg-[#e4f0e9da] text-[25px]">This Is No Items To Show</div> }
-          <button className="p-[5px_10px] bg-[#ff4500] block mt-[15px] text-white rounded-[10px] ml-auto" onClick={() => dispatch(clearCart())}>Clear</button>
+        <div className="cart-btns flex justify-between flex-row-reverse">
+          <button className="p-[5px_10px] bg-[#ff4500] block mt-[15px] text-white rounded-[10px]" onClick={() => dispatch(clearCart())}>Clear</button>
+          <button className="p-[5px_10px] bg-[#ff4500] block mt-[15px] text-white rounded-[10px]">{`Total Price: $${totalPrice == 0 ? `0.00` : totalPrice.toFixed(2)}`}</button>
+        </div>
       </div>
     </section>
   )

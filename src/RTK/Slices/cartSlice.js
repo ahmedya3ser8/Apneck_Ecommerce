@@ -1,10 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { json } from "react-router-dom";
 
 const cartSlice = createSlice({
   initialState: [],
   name: 'cartSlice',
   reducers: {
     addToCart: (state, action) => {
+      // localStorage.setItem('cart-product', JSON.stringify(state))
       const findProduct = state.find(product => product.id === action.payload.id);
       if (findProduct) {
         findProduct.count += 1;
