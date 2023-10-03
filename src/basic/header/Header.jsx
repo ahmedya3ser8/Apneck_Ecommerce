@@ -13,8 +13,7 @@ function Header() {
     {path: "about", text: "About"},
     {path: "contact", text: "Contact"},
   ]);
-  const cart = useSelector(state => state.cart);
-
+  const cart = useSelector(state => state.cart.cartItems);
   return (
     <header className='h-[70px] p-[10px] bg-[#cbd6cf] fixed top-0 left-0 w-full z-10'>
       <div className="container">

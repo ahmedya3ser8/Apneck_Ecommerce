@@ -1,31 +1,58 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { json } from "react-router-dom";
+import { toast } from "react-toastify";
+
+const initialState = {
+  cartItems: localStorage.getItem('cart') !== null ? JSON.parse(localStorage.getItem('cart')) : [],
+}
 
 const cartSlice = createSlice({
-  initialState: [],
+  initialState,
   name: 'cartSlice',
   reducers: {
     addToCart: (state, action) => {
-      // localStorage.setItem('cart-product', JSON.stringify(state))
-      const findProduct = state.find(product => product.id === action.payload.id);
+      const findProduct = state.cartItems.find(product => product.id === action.payload.id);
       if (findProduct) {
         findProduct.count += 1;
+        toast.info('increase product Quantity', {
+          position: 'bottom-left',
+          autoClose: 2000,
+        });
       } else {
         const productClone = {...action.payload, count: 1 };
-        state.push(productClone);
+        state.cartItems.push(productClone);
+        toast.success(`${action.payload.title} added to cart`, {
+          position: 'bottom-left',
+          autoClose: 2000,
+        });
       }
+      localStorage.setItem('cart', JSON.stringify(state.cartItems));
     },
     removeFromCart: (state, action) => {
-      return state.filter(product => product.id !== action.payload.id)
+      const removeProduct = state.cartItems.filter(product => product.id !== action.payload.id)
+      state.cartItems = removeProduct;
+      localStorage.setItem('cart', JSON.stringify(state.cartItems));
+      toast.warning('you remove item', {
+        position: 'bottom-left',
+        autoClose: 2000,
+      });
     },
     removeItem: (state, action) => {
-      let productCount = state.find(product => product.id === action.payload.id);
+      let productCount = state.cartItems.find(product => product.id === action.payload.id);
       if(productCount.count != 0 ) {
         productCount.count -= 1;
       }
+      toast.info('decrease product Quantity', {
+        position: 'bottom-left',
+        autoClose: 2000,
+      });
     },
     clearCart: (state, action) => {
-      return []
+      state.cartItems = []
+      localStorage.setItem('cart', JSON.stringify(state.cartItems));
+      toast.warning('you removed all items', {
+        position: 'bottom-left',
+        autoClose: 2000,
+      });
     }
   }
 })

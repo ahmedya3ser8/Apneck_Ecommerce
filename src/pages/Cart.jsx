@@ -2,8 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart, clearCart, removeFromCart, removeItem } from "../RTK/Slices/cartSlice";
 
 function Cart() {
-  const cart = useSelector(state => state.cart);
-  // const cart = JSON.parse(localStorage.getItem('cart-product'))
+  const cart = useSelector(state => state.cart.cartItems);
   const dispatch = useDispatch();
   const totalPrice = cart.reduce((acc, product) => {
     acc += product.price * product.count;
@@ -31,15 +30,15 @@ function Cart() {
                   <button className="p-[5px_10px] text-[18px] font-medium bg-[#e4f0e9da]">{product.count}</button>
                   <button className="p-[5px_10px] text-[18px] font-medium bg-[#e4f0e9da]" onClick={() => dispatch(removeItem(product))}>-</button>
                 </div>
-                <button onClick={() => dispatch(removeFromCart(product))} className="p-[5px_10px] bg-[#ff4500] text-white font-medium rounded-[10px] mt-[10px] block ml-auto" >Delete</button>
+                <button onClick={() => dispatch(removeFromCart(product))} className="p-[5px_10px] bg-[#ff4500] text-white font-medium rounded-[10px] mt-[20px] block ml-auto" >Delete</button>
               </div>
             </div>
           ))}
         </div>
         ) : <div className="flex justify-center items-center h-[25vh] bg-[#e4f0e9da] text-[25px]">This Is No Items To Show</div> }
-        <div className="cart-btns flex justify-between flex-row-reverse">
-          <button className="p-[5px_10px] bg-[#ff4500] block mt-[15px] text-white rounded-[10px]" onClick={() => dispatch(clearCart())}>Clear</button>
-          <button className="p-[5px_10px] bg-[#ff4500] block mt-[15px] text-white rounded-[10px]">{`Total Price: $${totalPrice == 0 ? `0.00` : totalPrice.toFixed(2)}`}</button>
+        <div className="cart-btns flex justify-between flex-row-reverse mt-[20px]">
+          <button className="p-[10px] bg-[#ff4500] block text-white rounded-[10px]" onClick={() => dispatch(clearCart())}>Clear</button>
+          <button className="p-[10px] bg-[#ff4500] block text-white rounded-[10px]">{`Total Price: $${totalPrice == 0 ? `0.00` : totalPrice.toFixed(2)}`}</button>
         </div>
       </div>
     </section>

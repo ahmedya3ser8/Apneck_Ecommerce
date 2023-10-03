@@ -3,7 +3,7 @@ import { addToCart } from '../RTK/Slices/cartSlice';
 import { useNavigate } from "react-router-dom";
 
 function ProductDetails() {
-  const detailsProducts = useSelector(state => state.details)
+  const detailsProducts = useSelector(state => state.detailsProduct.details)
   const {imgUrl, type, title, price, offer, desc, buttonText} = detailsProducts;
   const dispatch = useDispatch();
   const navigate = useNavigate();
