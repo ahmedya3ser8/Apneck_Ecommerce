@@ -64,18 +64,18 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom pt-[20px] border-t-[1px] border-solid border-[#00a97f]">
-          <div className="footer-container flex justify-between items-center">
+          <div className="footer-container flex flex-col md:flex-row md:gap-[5px] justify-between items-center">
             <p className='text-[#00a97f]'>&copy; Developed by ahmed yasser 2023</p>
             <div className='footer-links'>
               <ul className='flex gap-2'>
                 <li>
-                  <a href="" className='transition-colors duration-300 hover:text-[#ff4500]'>Privacy Policy</a>
+                  <a href="#" className='transition-colors duration-300 hover:text-[#ff4500]'>Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="" className='transition-colors duration-300 hover:text-[#ff4500]'>Terms of Use</a>
+                  <a href="#" className='transition-colors duration-300 hover:text-[#ff4500]'>Terms of Use</a>
                 </li>
                 <li>
-                  <a href="" className='transition-colors duration-300 hover:text-[#ff4500]'>Contact Us</a>
+                  <a href="#" className='transition-colors duration-300 hover:text-[#ff4500]'>Contact Us</a>
                 </li>
               </ul>
             </div>

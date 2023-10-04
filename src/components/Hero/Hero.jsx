@@ -9,7 +9,7 @@ function Hero() {
           <h1 className='text-[35px] text-[#ff4500] font-bold mb-2'>Super Value Deals</h1>
           <h5 className='text-[25px] text-[#444] mb-2'>On all products</h5>
           <p className='text-[15px] text-[#777] mb-[20px]'>Save more today with Apneck</p>
-          <Link to={'shop'} className='p-[10px] text-[18px] bg-[#2b3d4c] font-medium text-white rounded-[10px] border-[1px] border-solid border-transparent transition-all duration-300 hover:first-letter:bg-transparent hover:border-[#ccc] hover:text-[#354d61]'>Shop Now</Link>
+          <Link to={'shop'} className='p-[10px] text-[18px] bg-[#2b3d4c] font-medium text-white rounded-[10px] border-[1px] border-solid border-transparent transition-all duration-300 hover:first-letter:bg-transparent hover:border-[#000] hover:bg-transparent hover:text-[#354d61]'>Shop Now</Link>
         </div>
       </div>
     </section>

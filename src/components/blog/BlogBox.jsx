@@ -1,7 +1,7 @@
 
 function BlogBox({imgUrl, brand, text}) {
   return (
-    <div className="blog-box flex justify-between items-center gap-5 p-[20px] border-[1px] border-solid border-[#ccc]">
+    <div className="blog-box flex justify-between flex-col md:flex-row items-center gap-5 p-[20px] border-[1px] border-solid border-[#ccc]">
     <img src={imgUrl} alt="blog-img" className="w-[240px] h-[240px] rounded-[10px]" />
     <div className="blog-content">
       <span className="block text-[16px] font-bold mb-[5px]">{brand}</span>
