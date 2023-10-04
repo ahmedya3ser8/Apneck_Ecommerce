@@ -5,7 +5,7 @@ import Hero from "../components/Hero/Hero";
 import HotDeals from "../components/Hot-Deals/HotDeals";
 import Icons from '../components/icons/Icons';
 import NewsLetter from "../components/newsletter/NewsLetter";
-import Services from "../components/services/services";
+import Services from "../components/services/Services";
 
 function Home() {
   return (
