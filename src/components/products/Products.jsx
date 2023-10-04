@@ -1,18 +1,14 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import {AiFillStar, AiOutlineStar} from 'react-icons/ai';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts } from '../../RTK/Slices/ProductsSlice';
 import { addToCart } from '../../RTK/Slices/cartSlice';
 import { Link } from 'react-router-dom';
 import { viewDetails } from '../../RTK/Slices/detailsSlice';
 
 function Products() {
-  const products = useSelector(state => state.products);
+  const products = useSelector(state => state.products.data);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(fetchProducts())
-  }, [])
   return (
     <section className="py-12">
       <div className="container">

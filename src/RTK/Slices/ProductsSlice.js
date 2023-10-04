@@ -1,20 +1,14 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
+import productsData from '../../db/products.json'
 
-export const fetchProducts = createAsyncThunk('productSlice/fetchProducts', async () => {
-  const res = await fetch('./src/db/products.json');
-  const data = await res.json();
-  return data;
-})
+const initialState = {
+  data: productsData,
+}
 
 const productsSlice = createSlice({
-  initialState: [],
+  initialState,
   name: 'productSlice',
   reducers: {},
-  extraReducers: (builder) => {
-    builder.addCase(fetchProducts.fulfilled, (state, action) => {
-      return action.payload;
-    })
-  }
 })
 
 export const {} = productsSlice.actions;
