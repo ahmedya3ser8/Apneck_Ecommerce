@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../../../public/static/images/logo.png';
+import logo from '../../../public/images/logo.png';
 import {FaUserAlt, FaShoppingCart} from 'react-icons/fa';
 import {AiOutlineClose} from 'react-icons/ai';
 import {AiOutlineMenu} from 'react-icons/ai';

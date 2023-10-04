@@ -45,19 +45,19 @@ function Footer() {
               <div className='footer-icons flex items-center gap-[10px] mb-[10px]'>
                 <div className='footer-icon border-[1px] border-solid border-[#00a97f] rounded-[10px] group'>
                   <a href="#">
-                    <img src="/static/images/pay/play.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]'/>
+                    <img src="/images/pay/play.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]'/>
                   </a>
                 </div>
                 <div className='footer-icon border-[1px] border-solid border-[#00a97f] rounded-[10px] group'>
                   <a href="#">
-                    <img src="/static/images/pay/app.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]' />
+                    <img src="/images/pay/app.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]' />
                   </a>
                 </div>
               </div>
               <p className='mb-[10px]'>Payment Methods</p>
               <div className="payment border-[1px] border-solid border-[#00a97f] rounded-[10px]">
                 <a href="">
-                  <img src="/static/images/pay/pay.png" alt="payment-logo" className='p-[10px_8px] transition-transform duration-300 hover:translate-y-[-5px]' />
+                  <img src="/images/pay/pay.png" alt="payment-logo" className='p-[10px_8px] transition-transform duration-300 hover:translate-y-[-5px]' />
                 </a>
               </div>
             </div>

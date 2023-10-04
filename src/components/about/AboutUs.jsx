@@ -5,7 +5,7 @@ function AboutUs() {
       <div className="container">
         <div className="about-us flex flex-col sm:flex-row items-center gap-[50px]">
           <div className="about-img w-full lg:w-[40%]">
-            <img src="/public/static/images/about/about-us.jpg" alt="about-img" className="w-[420px] rounded-[10px]" />
+            <img src="/images/about/about-us.jpg" alt="about-img" className="w-[420px] rounded-[10px]" />
           </div>
           <div className="about-content w-full lg:w-[60%]">
             <h2 className="text-[25px] font-bold text-[#ff4500] mb-[10px]">Who are we?</h2>

@@ -7,7 +7,7 @@ function HotDeals() {
         <div className="deals-container flex flex-col md:flex-row gap-5">
           <div className="w-full md:w-1/2 p-[15px] border-[1px] border-solid border-[#ccc]">
             <div className="flex flex-col md:flex-row gap-3">
-              <img src="/public/static/images/Hot-Deals/banner-01.jpg" alt="deals-img" className="w-full object-cover md:object-fill md:w-[180px] md:h-[180px]" />
+              <img src="/images/Hot-Deals/banner-01.jpg" alt="deals-img" className="w-full object-cover md:object-fill md:w-[180px] md:h-[180px]" />
               <div className="flex flex-col justify-between gap-[15px]">
                 <div className="deals-content">
                   <span className="block text-[14px] text-[#777] mb-[5px]">Hot Deals</span>
@@ -21,7 +21,7 @@ function HotDeals() {
           </div>
           <div className="w-full md:w-1/2 p-[15px] border-[1px] border-solid border-[#ccc]">
             <div className="flex flex-col md:flex-row gap-3">
-              <img src="/public/static/images/Hot-Deals/banner-02.jpg" alt="deals-img" className="w-full object-cover md:object-fill md:w-[180px] md:h-[180px]" />
+              <img src="/images/Hot-Deals/banner-02.jpg" alt="deals-img" className="w-full object-cover md:object-fill md:w-[180px] md:h-[180px]" />
               <div className="flex flex-col justify-between gap-[15px]">
                 <div className="deals-content">
                   <span className="block text-[14px] text-[#777] mb-[5px]" >Hot Deals</span>
