@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
-    <section className="hero bg-[url('/static/images/hero4.png')] bg-cover bg-center min-h-screen relative top-[1px]">
+    <section className="hero bg-[url('/public/static/images/hero4.png')] bg-cover bg-center min-h-screen relative top-[1px]">
       <div className="container">
         <div className="hero-content absolute top-[50%] translate-y-[-50%] w-[450px] p-[20px]">
           <span className='text-[14px] text-[#666] block mb-2'>Trade in offer</span>

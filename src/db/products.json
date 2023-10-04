@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imgUrl": "/static/images/products/products-01.jpg",
+    "imgUrl": "/public/static/images/products/products-01.jpg",
     "type": "calvin klein",
     "title": "Slim Fit Dress Shirt",
     "price": 49.9,
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "imgUrl": "/static/images/products/products-02.jpg",
+    "imgUrl": "/public/static/images/products/products-02.jpg",
     "type": "nike",
     "title": "Men's Dri-FIT T-Shirt",
     "price": 24.6,
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "imgUrl": "/static/images/products/products-03.jpg",
+    "imgUrl": "/public/static/images/products/products-03.jpg",
     "type": "adidas",
     "title": "Women's Badge of Sport Tee",
     "price": 39.3,
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "imgUrl": "/static/images/products/products-04.jpg",
+    "imgUrl": "/public/static/images/products/products-04.jpg",
     "type": "levi s",
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 59.3,
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "imgUrl": "/static/images/products/products-05.jpg",
+    "imgUrl": "/public/static/images/products/products-05.jpg",
     "type": "under armour",
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 39.3,
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "imgUrl": "/static/images/products/products-06.jpg",
+    "imgUrl": "/public/static/images/products/products-06.jpg",
     "type": "h&m",
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 19.3,
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "imgUrl": "/static/images/products/products-07.jpg",
+    "imgUrl": "/public/static/images/products/products-07.jpg",
     "type": "puma",
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 9.3,
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "imgUrl": "/static/images/products/products-08.jpg",
+    "imgUrl": "/public/static/images/products/products-08.jpg",
     "type": "ralph lauren",
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "imgUrl": "/static/images/products/n1.jpg",
+    "imgUrl": "/public/static/images/products/n1.jpg",
     "type": "calvin klein",
     "title": "Slim Fit Dress Shirt",
     "price": 39.3,
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "imgUrl": "/static/images/products/n2.jpg",
+    "imgUrl": "/public/static/images/products/n2.jpg",
     "type": "nike",
     "title": "Men's Dri-FIT T-Shirt",
     "price": 29.3,
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "imgUrl": "/static/images/products/n3.jpg",
+    "imgUrl": "/public/static/images/products/n3.jpg",
     "type": "adidas",
     "title": "Women's Badge of Sport Tee",
     "price": 29.3,
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "imgUrl": "/static/images/products/n4.jpg",
+    "imgUrl": "/public/static/images/products/n4.jpg",
     "type": "levi s",
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 29.3,
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "imgUrl": "/static/images/products/n5.jpg",
+    "imgUrl": "/public/static/images/products/n5.jpg",
     "type": "under armour",
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 29.3,
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "imgUrl": "/static/images/products/n6.jpg",
+    "imgUrl": "/public/static/images/products/n6.jpg",
     "type": "h&m",
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 29.3,
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "imgUrl": "/static/images/products/n7.jpg",
+    "imgUrl": "/public/static/images/products/n7.jpg",
     "type": "puma",
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 29.3,
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "imgUrl": "/static/images/products/n8.jpg",
+    "imgUrl": "/public/static/images/products/n8.jpg",
     "type": "ralph lauren",
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "imgUrl": "/static/images/products/arrivals-01.png",
+    "imgUrl": "/public/static/images/products/arrivals-01.png",
     "type": "calvin klein",
     "title": "Slim Fit Dress Shirt",
     "price": 29.3,
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "imgUrl": "/static/images/products/arrivals-02.png",
+    "imgUrl": "/public/static/images/products/arrivals-02.png",
     "type": "nike",
     "title": "Men's Dri-FIT T-Shirt",
     "price": 29.3,
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "imgUrl": "/static/images/products/arrivals-03.png",
+    "imgUrl": "/public/static/images/products/arrivals-03.png",
     "type": "adidas",
     "title": "Women's Badge of Sport Tee",
     "price": 29.3,
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "imgUrl": "/static/images/products/arrivals-04.png",
+    "imgUrl": "/public/static/images/products/arrivals-04.png",
     "type": "levi s",
     "title": "Men's 1950s Sportswear T-Shirt",
     "price": 29.3,
@@ -221,7 +221,7 @@
   },
   {
     "id": 21,
-    "imgUrl": "/static/images/products/arrivals-05.png",
+    "imgUrl": "/public/static/images/products/arrivals-05.png",
     "type": "under armour",
     "title": "Men's Tech 2.0 Short Sleeve T-Shirt",
     "price": 29.3,
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "imgUrl": "/static/images/products/arrivals-06.png",
+    "imgUrl": "/public/static/images/products/arrivals-06.png",
     "type": "h&m",
     "title": "Women's Basic Tee, Men's Rebel Bold Tee",
     "price": 29.3,
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "imgUrl": "/static/images/products/arrivals-07.png",
+    "imgUrl": "/public/static/images/products/arrivals-07.png",
     "type": "puma",
     "title": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
     "price": 29.3,
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "imgUrl": "/static/images/products/arrivals-08.png",
+    "imgUrl": "/public/static/images/products/arrivals-08.png",
     "type": "ralph lauren",
     "title": "Women's Classic Fit Crewneck T-Shirt",
     "price": 29.3,
