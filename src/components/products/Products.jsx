@@ -15,7 +15,9 @@ function Products() {
         <div className="products-container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-8 gap-y-12">
           {products.map(product => (
             <div key={product.id} className="products-box p-[20px] border-[1px] border-solid border-[#ccc] transition-shadow duration-300 hover:shadow-[10px_10px_20px_#00000014]">
-              <img src={product.imgUrl} alt="product-img" className='h-[220px] rounded-[10px] m-auto' />
+              <div className="product-img">
+                <img src={product.imgUrl} alt="product img" className='h-[220px] object-cover rounded-[10px] m-auto' />
+              </div>
               <div className="product-content mt-2 p-[10px] flex flex-col gap-2">
                 <span className='block mb-2 text-[14px] text-[#cca27e]'>{product.type}</span>
                 <h5 className='text-[14px] mb-2 font-medium transition-colors duration-300 hover:text-[#535bf2]'>{product.title}</h5>

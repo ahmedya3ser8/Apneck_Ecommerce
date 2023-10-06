@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/images/hero4.png')",
+        'hero-pattern': "url('/images/hero.webp')",
         'service-pattern': "url('/images/service.jpg')",
-        'shaop-banner': "url('/images/shop-banner.jpg')",
-        'blog-landing': "url('/images/blog.jpg')",
+        'shaop-banner': "url('/images/shop-banner.webp')",
+        'blog-landing': "url('/images/blog.webp')",
         'about-landing': "url('/images/about.png')",
-        'contact-landing': "url('/images/contact.jpg')",
+        'contact-landing': "url('/images/contact.webp')",
       },
       screens: {
         sm: '576px',

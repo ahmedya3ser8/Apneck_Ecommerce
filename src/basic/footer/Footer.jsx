@@ -22,16 +22,16 @@ function Footer() {
                 </p>
                 <p className='text-[15px] font-medium mb-[10px]'>Follow the developer</p>
                 <div className="footer-social flex gap-5">
-                  <a href="">
+                  <a href="#" title='facebook-icon'>
                   <BsFacebook className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="">
+                  <a href="#" title='twitter-icon'>
                   <BsTwitter className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="">
+                  <a href="#" title='instgram-icon'>
                   <BsInstagram className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="">
+                  <a href="#" title='linkedin-icon'>
                   <BsLinkedin className='text-[#ea9d5a] text-[20px]' />
                   </a>
                 </div>
@@ -44,20 +44,20 @@ function Footer() {
               <p className='mb-[5px]'>Available On Google Play Services & App Store</p>
               <div className='footer-icons flex items-center gap-[10px] mb-[10px]'>
                 <div className='footer-icon border-[1px] border-solid border-[#00a97f] rounded-[10px] group'>
-                  <a href="#">
+                  <a href="#" title='payment-icon'>
                     <img src="/images/pay/play.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]'/>
                   </a>
                 </div>
                 <div className='footer-icon border-[1px] border-solid border-[#00a97f] rounded-[10px] group'>
-                  <a href="#">
+                  <a href="#" title='payment-icon'>
                     <img src="/images/pay/app.jpg" alt="footer-icon-img" className='p-[10px_8px] transition-transform duration-300 group-hover:translate-y-[-5px]' />
                   </a>
                 </div>
               </div>
               <p className='mb-[10px]'>Payment Methods</p>
               <div className="payment border-[1px] border-solid border-[#00a97f] rounded-[10px]">
-                <a href="">
-                  <img src="/images/pay/pay.png" alt="payment-logo" className='p-[10px_8px] transition-transform duration-300 hover:translate-y-[-5px]' />
+                <a href="#" title='payment-icon'>
+                  <img src="/images/pay/pay.webp" alt="payment-logo" className='p-[10px_8px] transition-transform duration-300 hover:translate-y-[-5px]' />
                 </a>
               </div>
             </div>

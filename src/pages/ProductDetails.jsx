@@ -12,7 +12,7 @@ function ProductDetails() {
     <section className="py-24">
       <div className="container">
         <div className="details-box flex gap-12 p-[20px] border-[1px] border-solid border-[#ccc]">
-          <img src={imgUrl} alt="product-img" className='h-[220px] rounded-[10px] m-auto' />
+          <img src={imgUrl} alt="product img" className='h-[220px] object-cover rounded-[10px] m-auto' />
           <div className="details-content mt-2 p-[10px]">
             <span  className='block mb-2 text-[14px] text-[#cca27e]'>{type}</span>
             <h5 className='text-[18px] mb-2 font-medium transition-colors duration-300 hover:text-[#535bf2]'>{title}</h5>

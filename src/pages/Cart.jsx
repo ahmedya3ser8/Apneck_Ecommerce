@@ -16,7 +16,7 @@ function Cart() {
           {cart.map(product => (
             <div key={product.id} className="products-box p-[20px] border-[1px] border-solid border-[#ccc] flex justify-around">
               <div className="product-img">
-                <img src={product.imgUrl} alt="product-img" className='h-[220px] rounded-[10px] m-auto' />
+                <img src={product.imgUrl} alt="product img" className='h-[220px] object-cover rounded-[10px] m-auto' />
               </div>
               <div className="product-content mt-2 p-[10px]">
                 <h5 className='text-[18px] mb-2 font-medium transition-colors duration-300 hover:text-[#535bf2]'>{product.title}</h5>
