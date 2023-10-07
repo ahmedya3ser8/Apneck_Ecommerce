@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 
 function Header() {
   const [links, setLinks] = useState([
-    {path: "/", text: "Home"},
+    {path: "/home", text: "Home"},
     {path: "shop", text: "Shop"},
     {path: "blog", text: "Blog"},
     {path: "about", text: "About"},
@@ -22,7 +22,7 @@ function Header() {
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="left w-[50%] flex flex-row-reverse justify-between items-center md:justify-end gap-5">
-            <Link to="/" className='w-[50px]' title='logo-img'>
+            <Link to="/home" className='w-[50px]' title='logo-img'>
               <img src={logo} alt="logo" className='h-[50px]' />
             </Link>
             <div className='text-[22px] md:hidden' onClick={() => setopenMenu(!openMenu)}>
@@ -40,8 +40,10 @@ function Header() {
               </ul>
             </nav>
             <div className="nav-icons ml-4 md:ml-12 flex gap-4 md:gap-6">
-              <FaUserAlt className='text-[22px] transition-all duration-300 hover:text-[#ff4500]' />
-              <Link to={'cart'} className='relative' title='cart-img'>
+              <Link to={'/'} title='signup' >
+                <FaUserAlt className='text-[22px] transition-all duration-300 hover:text-[#ff4500]' />
+              </Link>
+              <Link to={'cart'} className='relative' title='cart'>
                 <FaShoppingCart className='text-[22px] transition-all duration-300 hover:text-[#ff4500]'/>
                 <span className='absolute top-[-15px] right-[-10px] w-[20px] h-[20px] rounded-full bg-[#e4f0e9da] flex justify-center items-center z-[-1] font-medium'>
                   {cart.length}

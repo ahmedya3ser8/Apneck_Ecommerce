@@ -1,7 +1,7 @@
 
 function CustomerBox({img, brand, text}) {
   return (
-    <div className="customer-content p-[10px_15px] border-[1px] border-solid border-[#ccc] rounded-[10px] max-w-[300px] transition-shadow duration-300">
+    <div className="customer-content p-[10px_15px] m-auto border-[1px] border-solid border-[#ccc] rounded-[10px] max-w-[300px] transition-shadow duration-300">
       <div className="customer-img">
         <img src={img} alt="customer img" className="w-80 object-cover" />
       </div>

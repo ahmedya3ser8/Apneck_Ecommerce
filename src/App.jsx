@@ -10,14 +10,18 @@ import Contact from './pages/Contact';
 import Cart from './pages/Cart';
 import ProductDetails from './pages/ProductDetails';
 import { ToastContainer } from 'react-toastify';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
   return (
     <>
       <ToastContainer />
       <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route path='/' element={<Home />} />
+        <Route path='/' element={<Register />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/home' element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path='shop' element={<Shop />} />
           <Route path='blog' element={<Blog />} />
           <Route path='about' element={<About />} />

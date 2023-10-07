@@ -16,7 +16,7 @@ function Cart() {
           {cart.map(product => (
             <div key={product.id} className="products-box p-[20px] border-[1px] border-solid border-[#ccc] flex justify-around">
               <div className="product-img">
-                <img src={product.imgUrl} alt="product img" className='h-[220px] object-cover rounded-[10px] m-auto' />
+                <img src={product.imgUrl} alt="product img" className='h-[220px] object-fill rounded-[10px] m-auto' />
               </div>
               <div className="product-content mt-2 p-[10px]">
                 <h5 className='text-[18px] mb-2 font-medium transition-colors duration-300 hover:text-[#535bf2]'>{product.title}</h5>
@@ -37,7 +37,9 @@ function Cart() {
         </div>
         ) : <div className="flex justify-center items-center h-[25vh] bg-[#e4f0e9da] text-[25px]">This Is No Items To Show</div> }
         <div className="cart-btns flex justify-between flex-row-reverse mt-[20px]">
-          <button className="p-[10px] bg-[#ff4500] block text-white rounded-[10px]" onClick={() => dispatch(clearCart())}>Clear</button>
+          {cart.length > 0 && (
+            <button className="p-[10px] bg-[#ff4500] block text-white rounded-[10px]" onClick={() => dispatch(clearCart())}>Clear</button>
+          )}
           <button className="p-[10px] bg-[#ff4500] block text-white rounded-[10px]">{`Total Price: $${totalPrice == 0 ? `0.00` : totalPrice.toFixed(2)}`}</button>
         </div>
       </div>
