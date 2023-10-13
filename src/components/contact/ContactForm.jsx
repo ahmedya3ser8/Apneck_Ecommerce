@@ -10,12 +10,10 @@ function ContactForm() {
               <input type="text" name="first name" placeholder="First Name" id="firstname" className="p-[10px] w-1/2 outline-none rounded-[10px]" />
               <input type="text" name="last name" placeholder="Last Name" id="lastname" className="p-[10px] w-1/2 outline-none rounded-[10px]" />
             </div>
-            <div className="form-info flex flex-col gap-[10px]">
-              <label className="mb-[5px]" htmlFor="mail" >Enter Your Email address</label>
+            <div className="form-info flex flex-col gap-[10px] my-[15px]">
               <input type="email" name="mail" placeholder="example@example.com" id="mail" className="p-[10px] outline-none rounded-[10px]" />
             </div>
             <div className="form-info">
-              <label className="block p-[10px] mb-[5px]" htmlFor="message" >Type in your message</label>
               <textarea name="messaage" placeholder="Write Your Message" id="message" className="block w-full h-[150px] p-[10px] resize-none outline-none rounded-[10px] placeholder:text-slate-400"></textarea>
             </div>
             <button className="contact-btn block p-[10px] bg-[#2b3d4c] text-white rounded-[10px] m-auto mt-[15px] border-[1px] border-solid border-transparent transition-all duration-300 hover:border-[#ccc] hover:bg-transparent hover:text-black" type="submit">Submit</button>

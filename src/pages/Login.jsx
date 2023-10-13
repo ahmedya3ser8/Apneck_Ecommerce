@@ -32,7 +32,7 @@ function Login() {
   return (
     <section className="bg-[#4070f4] h-screen">
       <div className="container">
-        <div className="login-content w-[80%] md:w-[600px] lg:w-[700px] h-[400px] bg-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <div className="login-content w-[80%] md:w-[600px] lg:w-[700px] h-[350px] bg-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
           <h2 className="login-title text-[#4070f4] text-[35px] w-fit m-auto mb-[20px] p-[10px] font-bold relative before:content-[''] before:absolute before:h-[3px] before:w-[60px] before:bg-[#4070f4] before:bottom-0 before:left-[25%]">Login</h2>
           <form className="login-form px-[20px] m-auto" name="login-form">
             <div className="login-input flex items-center h-[50px] rounded-[10px] bg-[#ddd]  gap-3 p-[10px] my-4">
@@ -43,10 +43,13 @@ function Login() {
               <BiLockAlt className="text-[#666]" />
               <input type="password" placeholder="your password" className="w-full bg-transparent p-1 outline-none" id="password" name="pass" value={password} onChange={(e) => setPassword(e.target.value)} />
             </div>
-            <div className="login-btns flex justify-around items-center mt-[30px]">
-              <button type="submit" className="block w-[45%] p-[10px] bg-[#ddd] text-black rounded-[25px] font-medium text-[18px]" onClick={handleRegister}>Sign Up</button>
-              <button type="submit" className="block w-[45%] p-[10px] bg-[#4070f4] text-white rounded-[25px] font-medium text-[18px]" onClick={handleClick}>Login</button>
+            <div className="login-btn mt-[20px]">
+              <button type="submit" className="block w-full p-[10px] bg-[#4070f4] text-white rounded-[25px] font-medium text-[18px]" onClick={handleClick}>Login</button>
             </div>
+            <p className="p-[5px] text-center text-[18px] mt-[5px]">
+              Already have an account?
+              <button type="submit" className="text-[#4070f4] pl-2" onClick={handleRegister}>Sign Up</button>
+            </p>
           </form>
         </div>
       </div>

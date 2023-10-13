@@ -34,7 +34,7 @@ function Header() {
               <ul className={openMenu ? 'absolute left-0 top-[70px] w-full h-[223px] bg-white' : 'hidden md:flex md:gap-8'}>
                 {links.map((link, index) => (
                   <li className='p-[8px] md:p-0 last:border-none border-b-[1px] border-solid border-[#ccc] md:border-none' key={index}>
-                  <Link to={link.path} className='text-[18px] text-[#2b3d4c] transition-all duration-300 hover:pl-4 hover:text-[#ff4500] md:hover:pl-0'>{link.text}</Link>
+                  <Link to={link.path} className='text-[18px] block w-full text-[#2b3d4c] transition-all duration-300 hover:pl-4 hover:text-[#ff4500] md:hover:pl-0'>{link.text}</Link>
                 </li>
                 ))}
               </ul>

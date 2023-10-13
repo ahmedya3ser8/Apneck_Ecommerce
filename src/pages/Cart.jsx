@@ -9,7 +9,7 @@ function Cart() {
     return acc;
   }, 0)
   return (
-    <section className="py-28">
+    <section className={cart.length > 0 ? "py-28" : 'py-[70px]'}>
       <div className="container">
         {cart.length > 0 ? (
         <div className="cart-container grid grid-cols-1 md:grid-cols-2 gap-5">

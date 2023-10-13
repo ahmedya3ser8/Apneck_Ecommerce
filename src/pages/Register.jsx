@@ -52,10 +52,13 @@ function Register() {
               <BiLockAlt className="text-[#666]" />
               <input type="password" placeholder="your password" className="w-full bg-transparent p-1 outline-none" id="password" name="pass" value={password} onChange={(e) => setPassword(e.target.value)} />
             </div>
-            <div className="register-btns flex justify-around items-center mt-[30px]">
-              <button type="submit" className="block w-[45%] p-[10px] bg-[#4070f4] text-white rounded-[25px] font-medium text-[18px]" onClick={handleClick}>Sign Up</button>
-              <button type="submit" className="block w-[45%] p-[10px] bg-[#ddd] text-black rounded-[25px] font-medium text-[18px]" onClick={handleLogin}>Login</button>
+            <div className="register-btn mt-[20px]">
+              <button type="submit" className="block w-full p-[10px] bg-[#4070f4] text-white rounded-[25px] font-medium text-[18px]" onClick={handleClick}>Sign Up</button>
             </div>
+            <p className="p-[5px] text-center text-[18px] mt-[5px]">
+              Already have an account?
+              <button type="submit" className="text-[#4070f4] pl-2" onClick={handleLogin}>Login</button>
+            </p>
           </form>
         </div>
       </div>

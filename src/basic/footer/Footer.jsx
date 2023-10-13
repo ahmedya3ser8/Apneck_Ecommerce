@@ -1,4 +1,5 @@
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter} from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import HeadFooter from './HeadFooter';
 import FooterLinks from './FooterLinks';
 
@@ -22,23 +23,44 @@ function Footer() {
                 </p>
                 <p className='text-[15px] font-medium mb-[10px]'>Follow the developer</p>
                 <div className="footer-social flex gap-5">
-                  <a href="#" title='facebook-icon'>
+                  <a href="https://www.facebook.com/ahmedya3ser8?locale" target='_blank' title='facebook-icon' rel="noreferrer">
                   <BsFacebook className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="#" title='twitter-icon'>
+                  <a href="https://twitter.com/ahmed_ya3ser_8" target='_blank' title='twitter-icon' rel="noreferrer">
                   <BsTwitter className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="#" title='instgram-icon'>
+                  <a href="https://www.instagram.com/ahmed_ya3ser_8/" target='_blank' title='instgram-icon' rel="noreferrer">
                   <BsInstagram className='text-[#ea9d5a] text-[20px]' />
                   </a>
-                  <a href="#" title='linkedin-icon'>
+                  <a href="https://www.linkedin.com/in/ahmed-yasser-21382a267/" target='_blank' title='linkedin-icon' rel="noreferrer">
                   <BsLinkedin className='text-[#ea9d5a] text-[20px]' />
                   </a>
                 </div>
               </div>
             </div>
             <FooterLinks link1={'About Us'} link2={'Delivery'} link3={'Privacy Policy'} link4={'Terms & Conditions'} link5={'Fee Policy'} />
-            <FooterLinks link1={'Profile'} link2={'View Cart'} link3={'Help'} link4={'Payments'} link5={'Coupons'} />
+            <div className="footer-content">
+              <HeadFooter text={'About'} />
+              <div>
+                <ul>
+                  <li className='mb-[5px] py-[5px]'>
+                    <a href="#" className="transition-all duration-300 hover:pl-3 hover:text-[#ff4500]">Profile</a>
+                  </li>
+                  <li className='mb-[5px] py-[5px]'>
+                    <Link to={'cart'} className="transition-all duration-300 hover:pl-3 hover:text-[#ff4500]">View Cart</Link>
+                  </li>
+                  <li className='mb-[5px] py-[5px]'>
+                    <a href="#" className="transition-all duration-300 hover:pl-3 hover:text-[#ff4500]">Help</a>
+                  </li>
+                  <li className='mb-[5px] py-[5px]'>
+                    <a href="#" className="transition-all duration-300 hover:pl-3 hover:text-[#ff4500]">Payments</a>
+                  </li>
+                  <li className='mb-[5px] py-[5px]'>
+                    <a href="#" className="transition-all duration-300 hover:pl-3 hover:text-[#ff4500]">Coupons</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="footer-content">
               <HeadFooter text={'Install App'} />
               <p className='mb-[5px]'>Available On Google Play Services & App Store</p>
