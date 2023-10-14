@@ -24,7 +24,7 @@ function ProductDetails() {
             <button className='block p-[10px] w-full mt-[15px] text-[18px] bg-[#354d61] text-white rounded-[10px]' onClick={() => dispatch(addToCart(detailsProducts))}>{buttonText}</button>
           </div>
         </div>
-        <button className="p-[10px] bg-[#c3dacc86] mt-[10px] block ml-auto rounded-[10px] font-medium" onClick={() => navigate('/shop')}>Go back</button>
+        <button className="p-[10px] bg-[#c3dacc86] mt-[10px] block ml-auto rounded-[10px] font-medium" onClick={() => navigate('/home/shop')}>Go back</button>
       </div>
     </section>
   )
