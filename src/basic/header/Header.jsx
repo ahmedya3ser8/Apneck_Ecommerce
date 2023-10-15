@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import logo from '/images/logo.webp';
 import {FaUserAlt, FaShoppingCart} from 'react-icons/fa';
-import {AiOutlineClose} from 'react-icons/ai';
-import {AiOutlineMenu} from 'react-icons/ai';
+import {AiOutlineMenu, AiOutlineClose, AiOutlineLogin} from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -16,6 +15,9 @@ function Header() {
   ]);
   const cart = useSelector(state => state.cart.cartItems);
   const [openMenu, setopenMenu] = useState(false);
+  const handleLogOut = () => {
+    localStorage.clear();
+  }
 
   return (
     <header className='h-[70px] p-[10px] bg-[#cbd6cf] fixed top-0 left-0 w-full z-10'>
@@ -33,9 +35,9 @@ function Header() {
             <nav className='ml-[10px]'>
               <ul className={openMenu ? 'absolute left-0 top-[70px] w-full h-[223px] bg-white' : 'hidden md:flex md:gap-8'}>
                 {links.map((link, index) => (
-                  <li className='p-[8px] md:p-0 last:border-none border-b-[1px] border-solid border-[#ccc] md:border-none' key={index}>
-                  <Link to={link.path} className='text-[18px] block w-full text-[#2b3d4c] transition-all duration-300 hover:pl-4 hover:text-[#ff4500] md:hover:pl-0'>{link.text}</Link>
-                </li>
+                  <li className='p-[8px] md:p-0 border-b-[1px] border-solid border-[#ccc] last:border-none md:border-none' key={index}>
+                    <Link to={link.path} className='text-[18px] block w-full text-[#2b3d4c] transition-all duration-300 hover:pl-4 hover:text-[#ff4500] md:hover:pl-0'>{link.text}</Link>
+                  </li>
                 ))}
               </ul>
             </nav>
@@ -48,6 +50,9 @@ function Header() {
                 <span className='absolute top-[-15px] right-[-10px] w-[20px] h-[20px] rounded-full bg-[#e4f0e9da] flex justify-center items-center z-[-1] font-medium'>
                   {cart.length}
                 </span>
+              </Link>
+              <Link to={'/login'} onClick={handleLogOut} title='logout'>
+                <AiOutlineLogin className='text-[22px] text-black transition-all duration-300 hover:text-[#ff4500]' />  
               </Link>
             </div>
           </div>

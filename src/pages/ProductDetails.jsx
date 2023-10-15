@@ -11,7 +11,7 @@ function ProductDetails() {
   return (
     <section className="py-24">
       <div className="container">
-        <div className="details-box flex gap-12 p-[20px] border-[1px] border-solid border-[#ccc]">
+        <div className="details-box flex flex-col md:flex-row gap-[10px] md:gap-12 p-[20px] border-[1px] border-solid border-[#ccc]">
           <img src={imgUrl} alt="product img" className='h-[220px] object-cover rounded-[10px] m-auto' />
           <div className="details-content mt-2 p-[10px]">
             <span  className='block mb-2 text-[14px] text-[#cca27e]'>{type}</span>

@@ -55,7 +55,7 @@ function Register() {
             <div className="register-btn mt-[20px]">
               <button type="submit" className="block w-full p-[10px] bg-[#4070f4] text-white rounded-[25px] font-medium text-[18px]" onClick={handleClick}>Sign Up</button>
             </div>
-            <p className="p-[5px] text-center text-[18px] mt-[5px]">
+            <p className="p-[5px] text-center mt-[5px]">
               Already have an account?
               <button type="submit" className="text-[#4070f4] pl-2" onClick={handleLogin}>Login</button>
             </p>
